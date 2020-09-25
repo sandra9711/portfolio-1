@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio website</title>
+        
+         
+	     
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <div class="sign">
+              <span class="fast-flicker">R</span><span class="flicker">.</span>E<span class="fast-flicker">.</span><span
+            class="flicker">X</span>
+             </div>
+             
+              
+        <section class="bgimg">
+            <header>
+                <a href="#" class="logo"></a>
+                <div class="toggle"></div>
+                <ul>
+                    <li><a href="#abtid">ABOUT ME</a></li>
+                    <li><a href="#goalid">GOALS</a></li>
+                    <li><a href="#academid">ACADEMICS</a></li>
+                    <li><a href="#skillid">SKILLS</a></li>
+                    <li><a href="#smid">SOCIAL MEDIA HANDLES</a></li>
+                </ul>
+            </header>
+            <div class="fh">
+                <h2 class="anim">Hello,</h2><h2>I'm</h2>
+                <h2><b>Sandra Mariyam Jacob</b></h2>
+                
+                <a href="#" class="btn" >About Me</a>
+            </div>
+            
+        </section>
+         
+        <section class="about" id="abtid">
+            <img src="profile.jpg" id="imge1" class="im1" alt="profile pic" width="150px">
+            <div class="abouth">
+                <h2>About Me</h2>
+            </div>
+             
+            <div class="abt cont">
+                <h3>I'm a Computer science student at Mar Athanasius College of Engineering Kothamangalam.<br>
+                   Interested in web development and machine learning.<br>Lives in Kerala.
+                   
+                </h3>
+                 
+            </div>
+        </section>
+         
+        <section class="Goals" id="goalid">
+            
+            <div class="goalh">
+                <h2>Goals</h2>
+            </div>
+            <div class="goalcont">
+                <p>My goal is to pursue a good career in tech field<br> and finding the best ways of learning coding skills.<br>
+                    Also to be creative with data flow.<br>
+                    <br>Goals of an engineering student with no experience in the field and a background in programming.<br> I started working on it, mainly to develop something <br>that could be used by other people who had done similar tasks - although sometimes also for fun<br> (or perhaps because they thought there was nothing worthwhile about my work).
+                    It worked out beautifully so far; rather than going around getting all kinds help from different parties at every stage. 
+                </p>
+                 
+            </div>
+        </section>
+         
+        <!--img src="academ.jpg" id="imge" alt="academics" width="400px"-->
+        <section class="Academics" id="academid">
+            <div class="academh">
+                <h2>Academics</h2>
+            </div>
+            <div class="academcont">
+                <p> I'm currently doing my b B-Tech in computer science.
+                    <br>Academics of computer science student,"It is often easy to overlook the potential for an information society in a world<br> where digital devices are more important than ever."<br>
+                    The data mining machine that will be at your disposal when you're studying online courses.<br> 
+                    My favourite subjects are discrete mathematics and Object oriented programming with Java.
+                </p>
+                 
+            </div>
+        </section>
+        <!--img src="skills.jpg" id="imge" alt="skills" width="400px"-->
+        <section class="Skills" id="skillid">
+            <div class="skillh">
+                <h2>Skills</h2>
+            </div>
+            <div class="skillcont">
+                <p>As a beginner in web development,I have some HTML and CSS skills.<br>
+                   I have also started learning machine learning concepts using python.<br>
+                   Interested in game development using Unity 3D engine.<br>
+                   Learned using Augmented reality in gaming and some other platforms.<br>
+                   Makes different kind of AR filters using Spark AR.
+                </p>
+                 
+            </div>
+        </section>
+        <footer class="sm">
+            <section class="sm" id="smid">
+                <div class="smh">
+                    <h2>Connect @ </h2>
+                </div>
+                <a href="https://www.instagram.com/sandra_mariya_jacob/"  ><img src="insta.jpg" width="50px"></a><a href="https://www.linkedin.com/in/sandra-mariyam-jacob-2689641b2/"><img src="ln.jpg" width="50px"></a><a href="https://github.com/sandra9711"><img src="git.png" width="50px"></a>
+            </section>
+        </footer>
+        <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            var header=document.querySelector('header');
+            header.classList.toggle('sticky',window.scrollY>0);
+        });
+         
+ 
+        </script>
+    </body>
+</html>

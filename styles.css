@@ -1,0 +1,360 @@
+.bgimg{
+    background-color:rgb(184, 127, 211);
+    background-image: url("prt.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    padding-right: 20rem;
+    padding-left: 20rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.bgimg h2{
+    font-size: 3em;
+    color: white;
+    font-weight: 500;
+    font-style: unset;
+    text-decoration: none;
+}
+.bgimg h3{
+    color: white;
+}
+.btn{
+    position: relative;
+    background: rgb(58, 7, 87);
+    display: inline-block;
+    color: rgb(236, 238, 241);
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+     
+}
+header .logo{
+    font-size: 20px;
+    color: violet;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    top: 2;
+    left: 2;
+}
+header ul{
+    display: flex;
+    position: relative;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+    padding: 0.5px;
+    text-decoration: none;
+    font: large;
+}
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: violet;
+    text-decoration: none;
+}
+.about{
+    padding: 10px 30px;
+    color: white;
+    
+    font-family: cursive;
+    align-self: center;
+}
+.abouth{
+    text-transform: uppercase;
+    text-align: center;
+}
+header .sticky{
+    padding: 20px 100px;
+}
+header.sticky.logo{
+    color: white;
+}
+header.sticky ul li a{
+    color: white;
+}
+.Goals{
+    padding: 10px 30px;
+    background-color: white;
+    background-image: url("goal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10em;
+    margin-bottom: 15px;
+    margin-right: 42em;
+    font-family: cursive;
+}
+.goalh{
+    text-transform: uppercase;
+}
+ 
+#imge{
+    float: right;
+    margin: 0 0 0 15px;
+}
+.Academics{
+    padding: 10px 30px;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 42em;
+    font-family: cursive;
+    background-image: url("academ.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+.academh{
+    text-transform: uppercase;
+}
+.Skills{
+    padding: 10px 30px;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 42em;
+    font-family: cursive;
+    background-image: url("skill.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.skillh{
+    text-transform: uppercase;
+}
+.sm{
+    
+    background-image: url("prt.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    padding-right: 20rem;
+    padding-left: 20rem;
+     
+
+}
+.smh{
+    color: white;
+    text-align: right;
+}
+body{
+    background-color: black;
+}
+.im1{
+    margin-top: 70px;
+    margin-right: 220px;
+}
+#imge1{
+    float: right;
+}
+.fh{
+    font-family: cursive;
+}
+.anim{
+    animation-name: hello;
+    animation-duration: 4s;
+}
+ 
+@keyframes hello {
+    80%{
+    letter-spacing: 5px;
+    }
+    100% {
+    background-size: 300% 300%;
+    }
+     
+    }
+     
+.imge2{
+    margin-bottom: 4000em;
+}
+div.goalcont {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.goalcont p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+  div.academcont {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.academcont p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+  div.skillcont {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.skillcont p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+  .flicker{
+    animation: shine 2s forwards, blink 3s 2s infinite;
+   }
+   
+   .fast-flicker{
+    animation: shine 2s forwards, blink 10s 1s infinite;
+   }
+   @keyframes flicker{
+    from{
+    opacity: 1;
+    }
+   
+    4%{
+    opacity: 0.9;
+    }
+   
+    6%{
+    opacity: 0.85;
+    }
+   
+    8%{
+    opacity: 0.95;
+    }
+   
+    10%{
+    opacity: 0.9;
+    }
+   
+    11%{
+    opacity: 0.922;
+    }
+   
+    12%{
+    opacity: 0.9;
+    }
+   
+    14%{
+    opacity: 0.95;
+    }
+   
+    16%{
+    opacity: 0.98;
+    }
+   
+    17%{
+    opacity: 0.9;
+    }
+   
+    19%{
+    opacity: 0.93;
+    }
+   
+    20%{
+    opacity: 0.99;
+    }
+   
+    24%{
+    opacity: 1;
+    }
+   
+    26%{
+    opacity: 0.94;
+    }
+   
+    28%{
+    opacity: 0.98;
+    }
+   
+    37%{
+    opacity: 0.93;
+    }
+   
+    38%{
+    opacity: 0.5;
+    }
+   
+    39%{
+    opacity: 0.96;
+    }
+   
+    42%{
+    opacity: 1;
+    }
+   
+    44%{
+    opacity: 0.97;
+    }
+   
+    46%{
+    opacity: 0.94;
+    }
+   
+    56%{
+    opacity: 0.9;
+    }
+   
+    58%{
+    opacity: 0.9;
+    }
+   
+    60%{
+    opacity: 0.99;
+    }
+   
+    68%{
+    opacity: 1;
+    }
+   
+    70%{
+    opacity: 0.9;
+    }
+   
+    72%{
+    opacity: 0.95;
+    }
+   
+    93%{
+    opacity: 0.93;
+    }
+   
+    95%{
+    opacity: 0.95;
+    }
+   
+    97%{
+    opacity: 0.93;
+    }
+    
+    to{
+    opacity: 1;
+    }
+   }
+   
+   
+   
